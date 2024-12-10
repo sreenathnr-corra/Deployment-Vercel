@@ -6,7 +6,6 @@ generator client {
 datasource db {
   provider = "postgresql"
   url      =  "postgres://0193aff7-117e-733f-8702-574af40cfa17:7a6bcb44-4ca6-4808-a94f-5490f9864da8@us-west-2.db.thenile.dev/nile_rose_river"
-  schemas  = ["public", "users"]
 }
 
 model Session {
@@ -25,6 +24,4 @@ model Session {
   locale        String?
   collaborator  Boolean?  @default(false)
   emailVerified Boolean?  @default(false)
-
-  @@schema("public")
 }
