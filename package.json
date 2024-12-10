@@ -2,7 +2,7 @@
   "name": "custom-vercel-deployment",
   "private": true,
   "scripts": {
-    "build": "prisma generate && remix vite:build",  // Run prisma generate before build
+    "build": "prisma generate && remix vite:build",
     "dev": "shopify app dev",
     "config:link": "shopify app config link",
     "generate": "shopify app generate",
@@ -61,5 +61,5 @@
   ],
   "resolutions": {},
   "overrides": {},
-  "author": "corra-385"
+  "author": "Sreenath"
 }
